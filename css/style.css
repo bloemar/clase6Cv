@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'h1yh2';
+    src: url(../fonts/Cormorant/static/Cormorant-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url(../fonts/Cormorant/static/Cormorant-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    text-align: center
+}
+nav {
+    background-color: rgba(57, 56, 56, 0.168);
+    text-align: left;
+    font-size: 20px;
+}
+.sobreMi {
+    color: #fbfeff;
+    text-decoration: none;
+    font-family: h1yh2;
+    padding-right: 20px;
+}
+.contacto {
+    color: #fbfeff;
+    font-family: h1yh2;
+    text-decoration: none;
+}
+.imgAda {
+    width: 300px;
+}
+h1 {
+    font-family: h1yh2;
+    background-color: rgba(213, 211, 211, 0.168);
+    color: #fbfeff;
+}
+
+
+
+h2 {
+    background-color: rgba(22, 22, 22, 0.584);
+    padding: 5px;
+    color: #fbfeff;
+    font-family: h1yh2;
+    letter-spacing: 5px;
+    font-family: h1yh2;
+}
+section {
+   height: 200px;
+}
+li {
+    font-family: texto;
+    font-size: 25px;
+}
+
+
+
+footer {
+    background-color: rgba(22, 22, 22, 0.584);
+    text-align: center;
+    letter-spacing: 3px;
+}
+#contacto {
+    font-family: h1yh2;
+    font-size: 22px;
+    padding-right: 1rem;
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'h1yh2';
+    src: url(../fonts/Cormorant/static/Cormorant-BoldItalic.ttf);
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: repeat-y;
+}
+
+
+nav {
+    background-color: rgba(57, 56, 56, 0.168);
+    text-align: left;
+    font-size: 20px;
+}
+
+.inicio {
+    color: #fbfeff;
+    text-decoration: none;
+    font-family: h1yh2;
+    padding-left: 20px;
+}
+
+
+
+.biografia {
+    background-color: rgba(23, 23, 23, 0.592);
+    margin: 300px;
+    text-align: center;
+    color: #fbfeff;
+    font-family: h1yh2;
+}
+p {
+    font-size: 20px;
+}
